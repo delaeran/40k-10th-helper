@@ -1,5 +1,20 @@
 # 40kHelper
 
+This project is a personal idea of mine to create a project to help creating army for the warhammer 40k 10th edition after seeing the mobile app to be a temporary 'gift' from GW.
+
+The project is set up with angular, and, not disposing API to retrieve data, will use mock data in its service to give the needed data, and export the army list with document export.
+
+Done:
+- Create Faction List
+ 
+To do:
+- Create Army interface & service
+- Create Unit interface & service
+- Create Weapons interface & service
+- Allow to create an 'army document'
+
+-------------------------------
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
 ## Development server
