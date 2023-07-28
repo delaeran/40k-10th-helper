@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Faction } from '../faction';
 
 @Component({
   selector: 'app-creation-armee',
@@ -7,8 +6,6 @@ import { Faction } from '../faction';
   styleUrls: ['./creation-armee.component.css']
 })
 export class CreationArmeeComponent {
-  faction: Faction | null = null;
-
 
 
 }

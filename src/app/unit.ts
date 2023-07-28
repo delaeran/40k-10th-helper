@@ -1,4 +1,7 @@
-export interface Unite {
+
+import { Ability } from './ability';
+
+export interface Unit {
     name: string;
     movement: number;
     toughtness: number;
@@ -6,4 +9,5 @@ export interface Unite {
     wound: number;
     leadership: number;
     objectiveControl: number;
+    abilities: Ability[];
   }

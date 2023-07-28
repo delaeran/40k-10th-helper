@@ -1,10 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Faction } from '../faction';
+import { Army } from '../army';
 
 @Component({
   selector: 'app-main-menu',
   templateUrl: './main-menu.component.html',
   styleUrls: ['./main-menu.component.css']
 })
-export class MainMenuComponent {
+export class MainMenuComponent implements OnInit  {
+  Army: Army = new Army();
+  Faction: Faction = {
+    id:0,
+    name:"",
+    affiliation:""
+  };
 
+  ngOnInit(): void {
+  }
 }
